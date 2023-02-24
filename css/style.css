@@ -5,3 +5,24 @@
     text-align: center;
     padding: 10px;
 }
+.weather{
+    background-color: cyan;
+    color: black;
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+    padding: 10px;
+    
+}
+.results{
+    background-color: black;
+    color: white;
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+    padding: 10px;
+}
+.city{
+    column-gap: normal;
+    column-rule: 1px solid black;
+
+}
+
