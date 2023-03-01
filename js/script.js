@@ -31,13 +31,13 @@ document.querySelector(`.search`).addEventListener("submit", function (event){
         document.querySelector(`.humidity`).textContent = `Humidity: ${humidity}`
         document.querySelector(`.windSpeed`).textContent = `Wind Speed: ${windSpeed}`
 
-        fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${APIKey}`)
-        .then((response) => response.json())
-        .then((data) =>{
-            console.log(data)
-            var uvIndex = data.current.uvi
-            document.querySelector(`.uvIndex`).textContent = `UV Index: ${uvIndex}`
-    })
+    //     fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${APIKey}`)
+    //     .then((response) => response.json())
+    //     .then((data) =>{
+    //         console.log(data)
+    //         var uvIndex = data.current.uvi
+    //         document.querySelector(`.uvIndex`).textContent = `UV Index: ${uvIndex}`
+    // })
 
 })
 })
